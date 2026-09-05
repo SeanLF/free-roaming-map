@@ -41,6 +41,7 @@ test('buildDataset rolls sub-regions up to the best status and lists members', (
   assert.equal(ds.plans.free5g.nationalFairUseMb, 350000);
   assert.equal(ds.plans.free5g.nationalFairUseFreeboxMb, -1);
   assert.equal(ds.destinations['Espagne'].status.free5g, 'full');
+  assert.equal(ds.destinations['Espagne'].tariffs.free5g.callsReceived, 'Inclus');
 });
 
 test('a sovereign entry decides the map colour even when a sub-region diverges', () => {

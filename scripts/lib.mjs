@@ -125,6 +125,7 @@ export function buildDataset({ fetchedAt, pageProps, countryInfo }) {
             internetOverFairUse: info[plan.apiKey]?.internet?.penalty || null,
             callsLocal: info[plan.apiKey]?.calls?.toChooseCountry ?? null,
             callsToFrance: info[plan.apiKey]?.calls?.toFrance ?? null,
+            callsReceived: info[plan.apiKey]?.calls?.received ?? null,
             sms: info[plan.apiKey]?.sms?.sent?.price ?? null,
           }]))
         : null,
