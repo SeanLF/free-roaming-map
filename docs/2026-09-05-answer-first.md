@@ -33,3 +33,12 @@ Whose pain: the owner and friends on the 20 € plan; occasionally someone decid
 ## Out of scope
 
 A plan selector that hides the other plan (the owner prefers both visible). Native-app affordances. Any framework or build step.
+
+## Addendum, same day
+
+8. **The controls live in a floating dock at the bottom**, in the style of firsty.app: search first, then Translate and appearance, on a pill that is 82 % background colour with a saturating blur and a fade beneath it. Bottom placement puts the primary control in the thumb zone on phones. Readability is the constraint, so the surface is mostly opaque and falls back to fully opaque without `backdrop-filter`.
+9. **The map is full width until a selection exists**; the card then opens beside it (below it under 900 px) and closes with ✕ or Escape, returning focus to whatever opened it.
+10. **Flags.** The card headline and the tooltip carry the country's emoji flag from its ISO code; sub-regions show their parent's.
+11. **A missing status is "none".** Countries Free does not list at all must never be painted; the layer test is positive (`freeMax` is `full` or `data`), never "not none".
+12. **Hidden layers paint a neutral grey**, never the "non inclus" white.
+13. **Maritime networks**, which have no territory, are listed in a note under the lists rather than dropped.
