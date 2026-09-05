@@ -4,10 +4,12 @@
   "private": true,
   "description": "World map of the destinations included in Free Mobile's Forfait Free 5G+ and Free Max, regenerated weekly from Free's own API.",
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "fetch": "node scripts/fetch.mjs",
-    "test": "node --test test/",
+    "test": "node --test test/*.test.mjs",
     "serve": "npx --yes serve site"
   },
   "dependencies": {
