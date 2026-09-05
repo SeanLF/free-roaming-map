@@ -572,7 +572,8 @@ const theme = (() => {
   renderLists();
   for (const [n, d] of Object.entries(data.destinations)) if (d.iso) names.set(n, d.iso);
   const mapIsos = [...document.querySelectorAll('#svgMap [id^="svgMap-map-country-"]')].map((el) => el.id.slice('svgMap-map-country-'.length));
-  for (const lang of new Set(['fr', readerLang])) {
+  // French (Free's names), English as a floor, and the reader's own language.
+  for (const lang of new Set(['fr', 'en', readerLang])) {
     let dn; try { dn = new Intl.DisplayNames([lang], { type: 'region' }); } catch { continue; }
     for (const iso of [...mapIsos, ...Object.keys(PINS)]) { try { const n = dn.of(iso); if (n && n !== iso && !names.has(n)) names.set(n, iso); } catch {} }
   }
@@ -613,7 +614,7 @@ const theme = (() => {
   search.addEventListener('keydown', (e) => {
     if (e.key === 'ArrowDown') { e.preventDefault(); if (suggest.hidden) showSuggestions(); moveActive(1); }
     else if (e.key === 'ArrowUp') { e.preventDefault(); moveActive(-1); }
-    else if (e.key === 'Escape' && !suggest.hidden) { e.stopPropagation(); suggest.hidden = true; search.setAttribute('aria-expanded', 'false'); }
+    else if (e.key === 'Escape' && !suggest.hidden) { e.preventDefault(); e.stopPropagation(); suggest.hidden = true; search.setAttribute('aria-expanded', 'false'); } // preventDefault: keep the typed text
     else if (e.key === 'Enter') { e.preventDefault(); if (active >= 0 && suggest.children[active]) choose(suggest.children[active].dataset.name); else { suggest.hidden = true; goTo(); } }
   });
   document.getElementById('searchForm').addEventListener('submit', (e) => { e.preventDefault(); goTo(); });
