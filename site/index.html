@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Forfait Free à l'étranger</title>
+<meta name="description" content="Carte des destinations incluses dans le Forfait Free 5G+ et le Forfait Free Max, régénérée chaque semaine depuis mobile.free.fr.">
+<script>
+// Pre-paint: apply a forced appearance before first frame. System = no stored key.
+(function () { var t = null; try { t = localStorage.getItem('frm-theme'); } catch {}
+  t = (t === 'light' || t === 'dark') ? t : null;
+  document.documentElement.setAttribute('data-theme-pref', t || 'system');
+  if (t) document.documentElement.setAttribute('data-theme', t); })();
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/svgmap@2.21.0/dist/svgMap.min.css" integrity="sha384-rVpcxdV+Xb5k1aYbrjVRsqkHWafJJjtCQxs2MIhdeMg5WJSQQl01AMOmETEfrqz4" crossorigin="anonymous">
+<style>
+  :root {
+    color-scheme: light dark;
+    /* Three inclusion states plus white. Lightness steps 50 → 78 → 92 keep them apart in
+       greyscale; the Free Max-only state also carries a hatch so it reads as a different
+       product, not a paler version of the same one. */
+    --full: oklch(50% 0.2 25);
+    --data: oklch(78% 0.16 55);
+    --max: oklch(92% 0.05 240);
+    --max-ink: oklch(60% 0.12 240);
+    --none: light-dark(#ffffff, #3a3a3a);
+    --ocean: light-dark(#e9ecef, #1f2124);
+    --ink: light-dark(#1a1a1a, #f1f1f1);
+    --muted: light-dark(#666, #a0a0a0);
+    --line: light-dark(#ddd, #3a3a3a);
+    --bg: light-dark(#fff, #141516);
+    --inset: light-dark(#f3f4f6, #202224);
+  }
+  :root[data-theme="light"] { color-scheme: light; }
+  :root[data-theme="dark"] { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, sans-serif; }
+  .nav { border-block-end: 1px solid var(--line); }
+  .nav-in, main, footer { max-inline-size: 1200px; margin-inline: auto; padding-inline: 20px; }
+  .nav-in { block-size: 52px; display: flex; align-items: center; gap: 14px; line-height: normal; }
+  .brand { font-weight: 600; font-size: 16px; letter-spacing: -0.02em; color: var(--ink); text-decoration: none; }
+  .nav-right { margin-inline-start: auto; display: flex; align-items: center; gap: 12px; }
+  .search { flex: 1 1 200px; max-inline-size: 320px; margin: 0; & input { inline-size: 100%; block-size: 32px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--inset); color: var(--ink); font: inherit; font-size: 14px; &:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; } } }
+  @media (max-width: 640px) { .search { order: 3; flex-basis: 100%; max-inline-size: none; } .nav-in { flex-wrap: wrap; block-size: auto; padding-block: 8px; } }
+  .pill { display: inline-flex; align-items: center; gap: 6px; padding: 5px 11px; border: 1px solid var(--line); border-radius: 999px; font-size: 13px; color: var(--ink); text-decoration: none; & .g { font-size: 12px; color: var(--muted); } &:hover { background: var(--inset); } }
+  .theme-toggle { inline-size: 30px; block-size: 30px; border-radius: 50%; border: 1px solid var(--line); background: transparent; color: var(--ink); display: grid; place-items: center; cursor: pointer; padding: 0; &:hover { background: var(--inset); } & svg { inline-size: 15px; block-size: 15px; } & .moon { display: none; } }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .theme-toggle { & .sun { display: none; } & .moon { display: block; } } }
+  :root[data-theme="dark"] .theme-toggle { & .sun { display: none; } & .moon { display: block; } }
+  .theme-menu { margin: 0; padding: 6px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); box-shadow: 0 8px 24px rgb(0 0 0 / .18); min-inline-size: 160px; flex-direction: column; gap: 2px; position: fixed; inset: auto; top: 56px; right: max(20px, calc((100vw - 1200px) / 2 + 20px)); display: none; &:popover-open { display: flex; } }
+  @supports (anchor-name: --a) { .theme-toggle { anchor-name: --theme-anchor; } .theme-menu { position-anchor: --theme-anchor; top: anchor(bottom); right: anchor(right); margin-block-start: 6px; } }
+  .tm-in { position: absolute; inline-size: 1px; block-size: 1px; margin: 0; opacity: 0; pointer-events: none; }
+  .tm-opt { display: flex; align-items: center; gap: 10px; cursor: pointer; padding: 8px 10px; border-radius: 6px; font-size: 14px; color: var(--muted); &:hover { background: var(--inset); color: var(--ink); } }
+  .tm-in:checked + .tm-opt { color: var(--ink); background: var(--inset); font-weight: 600; }
+  .tm-in:focus-visible + .tm-opt { outline: 2px solid var(--ink); outline-offset: -2px; }
+  main { padding-block-start: 18px; }
+  .meta { color: var(--muted); font-size: 13px; margin: 0; & a { color: inherit; } }
+  .error { color: oklch(50% 0.2 25); }
+  .stale { color: oklch(55% 0.15 70); }
+  #svgMap { margin-block-start: 14px; border-radius: 10px; overflow: hidden; }
+  .svgMap-map-wrapper { background: var(--ocean) !important; }
+  .svgMap-map-wrapper .svgMap-country { stroke: light-dark(#888, #666) !important; stroke-width: 0.6 !important; }
+  .svgMap-tooltip { background: var(--bg) !important; color: var(--ink) !important; box-shadow: 0 2px 12px rgb(0 0 0 / .35) !important; }
+  .svgMap-tooltip-pointer::after { background: var(--bg) !important; }
+  .svgMap-map-controls-zoom { background: var(--bg) !important; box-shadow: 0 0 0 1px var(--line) !important; }
+  .svgMap-control-button { background: var(--bg) !important; &::before, &::after { background: var(--ink) !important; } &.svgMap-disabled::before, &.svgMap-disabled::after { background: var(--line) !important; } }
+  .svgMap-map-wrapper .pin { stroke: var(--bg) !important; stroke-width: 1.2 !important; vector-effect: non-scaling-stroke; }
+  .svgMap-map-wrapper .pin.svgMap-active { stroke: var(--ink) !important; }
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 12px 0 0; font-size: 14px;
+    & label, & .static { display: inline-flex; align-items: center; gap: 7px; }
+    & label { cursor: pointer; }
+    & input { appearance: none; margin: 0; inline-size: 15px; block-size: 15px; border: 1px solid light-dark(#888, #999); border-radius: 3px; background: var(--none); }
+    & input:checked { background: var(--swatch); }
+    & input:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+    & label:has(input:not(:checked)) { color: var(--muted); text-decoration: line-through; }
+    & .static::before { content: ""; inline-size: 15px; block-size: 15px; border: 1px solid light-dark(#888, #999); border-radius: 3px; background: var(--swatch); }
+    & .static.dot::before { border-radius: 50%; inline-size: 11px; block-size: 11px; margin-inline: 2px; }
+    & [data-layer="max"]:checked { background: repeating-linear-gradient(135deg, var(--max-ink) 0 1.5px, var(--max) 1.5px 5px); }
+  }
+  .lists { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px; margin-block-start: 32px; }
+  h2 { font-size: 16px; margin: 0 0 8px; & small { color: var(--muted); font-weight: 400; } }
+  ul { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 20px; }
+  li { break-inside: avoid; padding: 2px 0; & .n { color: var(--muted); font-size: 12px; } }
+  .tip {
+    max-inline-size: 340px; font-size: 13px; line-height: 1.4;
+    & b { display: block; font-size: 14px; margin-block-end: 2px; }
+    & .status { font-weight: 600; display: block; }
+    & .status.full { color: var(--full); }
+    & .status.data { color: oklch(60% 0.15 60); }
+    & .status.max { color: var(--max-ink); }
+    & table { border-collapse: collapse; margin-block-start: 6px; }
+    & td { padding: 1px 8px 1px 0; vertical-align: top; }
+    & td:first-child { color: var(--muted); }
+    & .ops { margin-block-start: 6px; color: var(--muted); }
+    & hr { border: 0; border-top: 1px solid var(--line); margin-block: 8px; }
+  }
+  footer { padding: 28px 20px 40px; color: var(--muted); font-size: 13px; & a { color: inherit; } }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<header class="nav"><div class="nav-in">
+  <a class="brand" href="./">Forfait Free à l'étranger</a>
+  <form class="search" role="search" id="searchForm"><input type="search" id="search" list="destinations" placeholder="Rechercher une destination…" aria-label="Rechercher une destination" autocomplete="off"><datalist id="destinations"></datalist></form>
+  <div class="nav-right">
+    <a class="pill" id="translate" hidden><span class="g" aria-hidden="true">文A</span> Translate</a>
+    <button type="button" class="theme-toggle" id="themeToggle" popovertarget="themeMenu" aria-label="Apparence : système">
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+    <div popover id="themeMenu" class="theme-menu" role="radiogroup" aria-label="Apparence">
+      <input type="radio" class="tm-in" name="theme-pref" id="tm-light" value="light"><label class="tm-opt" for="tm-light">Clair</label>
+      <input type="radio" class="tm-in" name="theme-pref" id="tm-dark" value="dark"><label class="tm-opt" for="tm-dark">Sombre</label>
+      <input type="radio" class="tm-in" name="theme-pref" id="tm-system" value="system" checked><label class="tm-opt" for="tm-system">Système</label>
+    </div>
+  </div>
+</div></header>
+<main>
+  <p class="meta" id="meta">Chargement…</p>
+  <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+    <pattern id="hatch-max" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <rect width="6" height="6" style="fill: var(--max)"/>
+      <line x1="0" y1="0" x2="0" y2="6" style="stroke: var(--max-ink); stroke-width: 2"/>
+    </pattern>
+  </svg>
+  <div id="svgMap"></div>
+  <p class="legend" id="legend">
+    <label style="--swatch: var(--full)"><input type="checkbox" data-layer="full" checked> <span id="legend-full"></span></label>
+    <label style="--swatch: var(--data)"><input type="checkbox" data-layer="data" checked> <span id="legend-data"></span></label>
+    <label style="--swatch: var(--max)"><input type="checkbox" data-layer="max" checked> <span id="legend-max"></span></label>
+    <span class="static" style="--swatch: var(--none)">Non inclus (tarifs à la connexion)</span>
+    <span class="static dot" style="--swatch: var(--muted)">Territoire trop petit pour la carte, repéré par un point</span>
+  </p>
+  <section class="lists">
+    <div><h2 id="h-full"></h2><ul id="list-full"></ul></div>
+    <div><h2 id="h-data"></h2><ul id="list-data"></ul></div>
+    <div><h2 id="h-max"></h2><ul id="list-max"></ul></div>
+  </section>
+</main>
+<footer>
+  Données extraites automatiquement de <a href="https://mobile.free.fr/communications-a-l-etranger">mobile.free.fr</a> (liste des destinations et API tarifaire), chaque lundi.
+  Ce site n'est pas affilié à Free. Vérifiez la <a href="https://mobile.free.fr/communications-a-l-etranger">page officielle</a> avant de partir.
+  <a href="https://github.com/SeanLF/free-roaming-map">Code et historique des changements</a>.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js" integrity="sha384-yc/c2Lk1s2V2ir1rxvjo8YyVD9PlOlYTqpNr3Wm1WIuAA30GlDYNx6U5104OiavY" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/svgmap@2.21.0/dist/svgMap.min.js" integrity="sha384-UQQhELPBZEWmNDABDT7EPZFTRU9qYomv6rgeiKkYZWXaNRsqLVrvP2a2Wd8BzgSP" crossorigin="anonymous"></script>
+<script>
+// ---- appearance: System / Clair / Sombre, stored only when forced (same model as steer.seanfloyd.dev)
+const theme = (() => {
+  const root = document.documentElement;
+  const mq = matchMedia('(prefers-color-scheme: dark)');
+  const NAME = { system: 'système', light: 'clair', dark: 'sombre' };
+  const listeners = [];
+  function apply(pref) {
+    root.setAttribute('data-theme-pref', pref);
+    if (pref === 'system') root.removeAttribute('data-theme'); else root.setAttribute('data-theme', pref);
+    try { pref === 'system' ? localStorage.removeItem('frm-theme') : localStorage.setItem('frm-theme', pref); } catch {}
+    const radio = document.getElementById(`tm-${pref}`);
+    if (radio && !radio.checked) radio.checked = true;
+    document.getElementById('themeToggle').setAttribute('aria-label', `Apparence : ${NAME[pref]}`);
+    listeners.forEach((f) => f());
+  }
+  const menu = document.getElementById('themeMenu');
+  if (!('popover' in HTMLElement.prototype)) document.getElementById('themeToggle').hidden = true;
+  document.querySelectorAll('.tm-in').forEach((r) => r.addEventListener('change', () => r.checked && apply(r.value)));
+  menu.addEventListener('click', (e) => { if (e.target.closest('.tm-opt')) { menu.hidePopover(); document.getElementById('themeToggle').focus(); } });
+  menu.addEventListener('toggle', (e) => { if (e.newState === 'open') menu.querySelector('.tm-in:checked')?.focus(); });
+  mq.addEventListener('change', () => { if (root.getAttribute('data-theme-pref') === 'system') listeners.forEach((f) => f()); });
+  apply(root.getAttribute('data-theme-pref') || 'system');
+  return { onChange: (f) => listeners.push(f) };
+})();
+
+// ---- translate pill: Google's translate.goog proxy, only for non-French readers off the proxy
+(() => {
+  const a = document.getElementById('translate');
+  const host = location.hostname;
+  const lang = (navigator.language || 'en').split('-')[0];
+  const local = !host.includes('.') || /^\d+\.\d+\.\d+\.\d+$/.test(host);
+  if (host.includes('translate.goog') || local || lang === 'fr') return;
+  const proxy = host.replace(/-/g, '--').replace(/\./g, '-') + '.translate.goog';
+  a.href = `https://${proxy}${location.pathname}?_x_tr_sl=fr&_x_tr_tl=${lang}&_x_tr_hl=${lang}`;
+  a.hidden = false;
+})();
+
+(async () => {
+  const data = await (await fetch('data.json', { cache: 'no-cache' })).json();
+  // svgMap parses colours itself and does not understand light-dark()/oklch(), so
+  // resolve each token to the rgb() the browser computes for the current scheme.
+  const probe = document.body.appendChild(document.createElement('i'));
+  probe.hidden = true;
+  const css = (v) => { probe.style.color = `var(${v})`; return getComputedStyle(probe).color; };
+  const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const gb = (mb) => (mb < 0 ? 'illimité' : `${mb / 1000} Go/mois`);
+  const fold = (t) => t.normalize('NFD').replace(/[̀-ͯ]/g, '').toLocaleLowerCase('fr');
+  const isoNamesFr = new Intl.DisplayNames(['fr'], { type: 'region' });
+  const P5 = data.plans.free5g, PM = data.plans.freeMax;
+
+  // One map for both plans. Free Max includes everything 5G+ does, so a destination is
+  // full or data-only on 5G+, or "max" when only Free Max includes it (any level).
+  const layerOf = (status) => {
+    if (status.free5g === 'full') return 'full';
+    if (status.free5g === 'data') return 'data';
+    if (status.freeMax !== 'none') return 'max';
+    return null;
+  };
+  const LAYER_LABEL = {
+    full: `Tout inclus : internet ${gb(P5.roamingFairUseMb)} + appels, SMS, MMS (et la France)`,
+    data: `Internet ${gb(P5.roamingFairUseMb)} seulement, appels et SMS payants`,
+    max: `Rien avec le ${P5.name} ; inclus avec le ${PM.name} (internet ${gb(PM.roamingFairUseMb)})`,
+  };
+  const hidden = new Set();
+  let map;
+
+  // Territories svgMap has no outline for. Each is pinned relative to a small drawn
+  // neighbour: the neighbour's outline centre plus the lat/lon delta at the map's local
+  // scale (measured on svgMap 2.21's 2000×1001 artwork).
+  const PX_PER_LON = 5.56, PX_PER_LAT = 6.264;
+  const PINS = {
+    GI: { lat: 36.14, lon: -5.35, anchor: ['AD', 42.55, 1.58] },
+    JE: { lat: 49.21, lon: -2.13, anchor: ['LU', 49.81, 6.13] },
+    GG: { lat: 49.45, lon: -2.58, anchor: ['LU', 49.81, 6.13] },
+    IM: { lat: 54.24, lon: -4.55, anchor: ['LU', 49.81, 6.13] },
+    AX: { lat: 60.2, lon: 19.9, anchor: ['EE', 58.6, 25.0] },
+    MO: { lat: 22.2, lon: 113.55, anchor: ['HK', 22.35, 114.15] },
+    BL: { lat: 17.9, lon: -62.83, anchor: ['KN', 17.3, -62.7] },
+    MF: { lat: 18.07, lon: -63.05, anchor: ['KN', 17.3, -62.7] },
+    BQ: { lat: 12.2, lon: -68.3, anchor: ['CW', 12.2, -69.0] },
+    PM: { lat: 46.9, lon: -56.3, anchor: ['BM', 32.3, -64.75] }, // Canada's box centre is not its geometry; Bermuda lands it off Newfoundland
+    PW: { lat: 7.5, lon: 134.6, anchor: ['BN', 4.5, 114.6] },
+    KI: { lat: 1.42, lon: 173.0, anchor: ['NR', -0.53, 166.93] },
+    WS: { lat: -13.76, lon: -172.1, anchor: ['TO', -21.18, -175.2] },
+    WF: { lat: -13.3, lon: -176.2, anchor: ['TO', -21.18, -175.2] },
+    SH: { lat: -15.95, lon: -5.7, anchor: ['ST', 0.2, 6.6] },
+  };
+  const pinnedIso = new Set(Object.keys(PINS));
+
+  const unit = (v, u) => (v == null ? '—' : /^inclus/i.test(v) ? esc(v) : `${esc(v)}${u}`);
+  // "inclus" means the plan's roaming allowance (35 Go/mois on 5G+), then a per-MB price.
+  const internetLine = (t, plan) => {
+    if (t.internet == null) return '—';
+    if (!/^inclus/i.test(t.internet)) return `${esc(t.internet)}/Mo`;
+    const allowance = plan.roamingFairUseMb < 0 ? 'illimité' : `${gb(plan.roamingFairUseMb)} inclus`;
+    return allowance + (t.internetOverFairUse ? `, puis ${esc(t.internetOverFairUse)}/Mo` : '');
+  };
+  const statusLabel = (st) => (st === 'full' ? 'internet + appels/SMS inclus' : st === 'data' ? 'internet inclus, appels/SMS payants' : 'non inclus');
+
+  function tooltipHtml(iso) {
+    if (iso === 'FR') {
+      const nat = (p) => `${gb(p.nationalFairUseMb)}` + (p.nationalFairUseFreeboxMb !== p.nationalFairUseMb ? ` (${gb(p.nationalFairUseFreeboxMb)} avec une Freebox)` : '');
+      return `<b>France métropolitaine</b><span class="status full">Réseau Free, appels/SMS/MMS illimités</span>
+        <table><tr><td>${esc(P5.name)}</td><td>internet ${nat(P5)}</td></tr><tr><td>${esc(PM.name)}</td><td>internet ${nat(PM)}</td></tr></table>`;
+    }
+    const e = data.byIso[iso];
+    let name = iso;
+    try { name = isoNamesFr.of(iso); } catch {}
+    if (!e) return `<b>${esc(name)}</b><span class="status">Non inclus dans le ${esc(P5.name)} ni le ${esc(PM.name)}</span>`;
+    // Headline: the sovereign entry, else the member named like the country, else the
+    // country's own name over the first member (so GB reads "Royaume-Uni", not "Angleterre").
+    const primary = e.sovereign || e.members.find((m) => fold(m) === fold(name)) || e.members[0];
+    const headline = e.sovereign || e.members.find((m) => fold(m) === fold(name)) ? primary : name;
+    const same = (a, b) => a.status.free5g === b.status.free5g && a.status.freeMax === b.status.freeMax;
+    const alsoNames = e.members.filter((m) => m !== primary && same(data.destinations[m], data.destinations[primary]));
+    const shown = e.members.filter((m) => m === primary || !alsoNames.includes(m));
+    const also = alsoNames.length ? `<div class="ops">${headline === primary ? 'Même statut' : `Inclut ${esc(primary)}`}${alsoNames.length ? ' : ' : ''}${alsoNames.map(esc).join(', ')}</div>` : '';
+    return shown.map((m) => {
+      const d = data.destinations[m];
+      const layer = layerOf(d.status);
+      const t = d.tariffs?.free5g;
+      const tm = d.tariffs?.freeMax;
+      const head = `<b>${esc(m === primary ? headline : m)}</b>` +
+        `<span class="status ${layer ?? ''}">${esc(P5.name)} : ${statusLabel(d.status.free5g)}</span>` +
+        (d.status.freeMax !== d.status.free5g ? `<span class="status max">${esc(PM.name)} : ${statusLabel(d.status.freeMax)}</span>` : '');
+      const tariff = t ? `<table>
+        <tr><td>Internet</td><td>${internetLine(t, P5)}${tm && tm.internet !== t.internet ? `<br><small>${esc(PM.name)} : ${internetLine(tm, PM)}</small>` : ''}</td></tr>
+        <tr><td>Appels locaux</td><td>${unit(t.callsLocal, '/min')}</td></tr>
+        <tr><td>Appels vers la France</td><td>${unit(t.callsToFrance, '/min')}</td></tr>
+        <tr><td>SMS</td><td>${unit(t.sms, '/SMS')}</td></tr></table>` : '';
+      const ops = d.operators.length ? `<div class="ops">${d.operators.map((o) => `${esc(o.name)}${o.nr ? ' · 5G' : o.lte ? ' · 4G' : ''}${o.volte ? ' · VoLTE' : ''}`).join('<br>')}</div>` : '';
+      return head + tariff + ops + (m === primary ? also : '');
+    }).join('<hr>');
+  }
+
+  const PIN_PX = 4.5;
+  function drawPins() {
+    const viewport = document.querySelector('#svgMap svg .svg-pan-zoom_viewport') || document.querySelector('#svgMap svg');
+    if (!viewport) return;
+    const pins = [];
+    // Keep dots a constant size on screen: radius in SVG units shrinks as the map zooms in.
+    const resize = () => { const z = map.mapPanZoom.getSizes().realZoom; pins.forEach((c) => c.setAttribute('r', PIN_PX / z)); map.setControlStatuses?.(); };
+    for (const [iso, pin] of Object.entries(PINS)) {
+      const e = data.byIso[iso];
+      const layer = e && layerOf(e.status);
+      if (!layer || hidden.has(layer)) continue;
+      const anchor = document.getElementById(`svgMap-map-country-${pin.anchor[0]}`);
+      if (!anchor) continue;
+      const b = anchor.getBBox();
+      const x = b.x + b.width / 2 + (pin.lon - pin.anchor[2]) * PX_PER_LON;
+      const y = b.y + b.height / 2 - (pin.lat - pin.anchor[1]) * PX_PER_LAT;
+      const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      c.setAttribute('cx', x); c.setAttribute('cy', y);
+      // Class + data-id make svgMap treat the dot as a country: hover, tooltip and
+      // touch all go through its own handlers, which otherwise hide the tooltip
+      // the moment the pointer is over anything that is not a .svgMap-country.
+      c.setAttribute('class', 'svgMap-country pin');
+      c.dataset.id = iso;
+      c.dataset.iso = iso;
+      c.style.fill = layer === 'max' ? 'url(#hatch-max)' : css(`--${layer}`);
+      viewport.appendChild(c);
+      pins.push(c);
+    }
+    resize();
+    map.mapPanZoom.setOnZoom(resize);
+  }
+
+  // Zoom the map onto one destination: its outline's box, or its pin.
+  function focusIso(iso) {
+    const pz = map.mapPanZoom;
+    const el = document.getElementById(`svgMap-map-country-${iso}`) || document.querySelector(`#svgMap circle.pin[data-iso="${iso}"]`);
+    if (!el) return;
+    const b = el.getBBox();
+    const cx = b.x + b.width / 2, cy = b.y + b.height / 2;
+    pz.resetZoom(); pz.resetPan();
+    const s0 = pz.getSizes();
+    const fit = s0.realZoom; // zoom 1 = whole map fitted
+    const isPin = el.classList.contains('pin');
+    const target = Math.min(isPin ? 6 : 25, Math.max(1.06, 0.6 * Math.min(s0.width / (Math.max(b.width, 40) * fit), s0.height / (Math.max(b.height, 40) * fit))));
+    pz.zoom(target);
+    const s1 = pz.getSizes();
+    pz.pan({ x: s1.width / 2 - cx * s1.realZoom, y: s1.height / 2 - cy * s1.realZoom });
+    document.querySelectorAll('#svgMap .svgMap-active').forEach((x) => x.classList.remove('svgMap-active'));
+    el.classList.add('svgMap-active');
+  }
+
+  function renderMap() {
+    const values = hidden.has('full') ? {} : { FR: { s: 1, color: css('--full') } };
+    for (const [iso, e] of Object.entries(data.byIso)) {
+      const layer = layerOf(e.status);
+      if (!layer || hidden.has(layer)) continue;
+      values[iso] = { s: 1, color: layer === 'max' ? 'url(#hatch-max)' : css(`--${layer}`) };
+    }
+    document.getElementById('svgMap').replaceChildren();
+    document.querySelectorAll('.svgMap-tooltip').forEach((t) => t.remove());
+    map = new svgMap({
+      targetElementID: 'svgMap',
+      colorNoData: css('--none'),
+      noDataText: 'Non inclus',
+      initialZoom: 1.06,
+      mouseWheelZoomWithKey: true,
+      mouseWheelKeyMessageMac: 'Maintenez ⌘ pour zoomer',
+      mouseWheelKeyMessage: 'Maintenez Ctrl pour zoomer',
+      flagType: 'emoji',
+      data: { data: { s: { name: 'Inclusion' } }, applyData: 's', values },
+      onGetTooltip: (div, iso) => {
+        const tip = document.createElement('div');
+        tip.className = 'tip';
+        tip.innerHTML = tooltipHtml(iso);
+        return tip;
+      },
+    });
+    drawPins();
+  }
+
+  function renderLists() {
+    const lists = { full: [], data: [], max: [] };
+    for (const [name, d] of Object.entries(data.destinations)) {
+      const layer = layerOf(d.status);
+      if (layer) lists[layer].push({ name, drawn: d.iso && (pinnedIso.has(d.iso) || !!document.getElementById(`svgMap-map-country-${d.iso}`)) });
+    }
+    for (const k of Object.keys(lists)) {
+      lists[k].sort((a, b) => a.name.localeCompare(b.name, 'fr'));
+      document.getElementById(`legend-${k}`).textContent = LAYER_LABEL[k];
+      document.getElementById(`list-${k}`).replaceChildren(...lists[k].map(({ name, drawn }) => {
+        const li = document.createElement('li');
+        li.textContent = name;
+        if (!drawn) li.insertAdjacentHTML('beforeend', ' <span class="n">(hors carte)</span>');
+        return li;
+      }));
+    }
+    document.getElementById('h-full').innerHTML = `Internet + appels/SMS inclus <small>(${lists.full.length})</small>`;
+    document.getElementById('h-data').innerHTML = `Internet uniquement <small>(${lists.data.length})</small>`;
+    document.getElementById('h-max').innerHTML = `Seulement avec le ${esc(PM.name)} <small>(${lists.max.length})</small>`;
+
+    const fetched = new Date(data.fetchedAt);
+    const ageDays = (Date.now() - fetched) / 86400000;
+    document.getElementById('meta').innerHTML =
+      `${esc(P5.name)} à ${(P5.price / 100).toFixed(2).replace('.', ',')} €/mois, ${esc(PM.name)} à ${(PM.price / 100).toFixed(2).replace('.', ',')} €/mois. ` +
+      `Mis à jour le ${fetched.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}` +
+      (ageDays > 21 ? ` <span class="stale">(données de plus de trois semaines)</span>` : '') +
+      (data.unmapped?.length ? ` · ${data.unmapped.length} destination(s) non placée(s) sur la carte` : '');
+  }
+
+  document.querySelectorAll('#legend input').forEach((cb) => cb.addEventListener('change', () => {
+    cb.checked ? hidden.delete(cb.dataset.layer) : hidden.add(cb.dataset.layer);
+    renderMap();
+  }));
+  theme.onChange(renderMap);
+  renderMap();
+  renderLists();
+  // Search covers Free's destinations plus every country drawn on the map (so a
+  // non-included country still answers), in French and in the reader's language.
+  const readerLang = (navigator.language || 'fr').split('-')[0];
+  const names = new Map(); // label -> iso
+  for (const [n, d] of Object.entries(data.destinations)) if (d.iso) names.set(n, d.iso);
+  const mapIsos = [...document.querySelectorAll('#svgMap [id^="svgMap-map-country-"]')].map((el) => el.id.slice('svgMap-map-country-'.length));
+  for (const lang of new Set(['fr', readerLang])) {
+    let dn; try { dn = new Intl.DisplayNames([lang], { type: 'region' }); } catch { continue; }
+    for (const iso of [...mapIsos, ...Object.keys(PINS)]) { try { const n = dn.of(iso); if (n && n !== iso && !names.has(n)) names.set(n, iso); } catch {} }
+  }
+  const labels = [...names.keys()].sort((a, b) => a.localeCompare(b, readerLang));
+  document.getElementById('destinations').replaceChildren(...labels.map((n) => Object.assign(document.createElement('option'), { value: n })));
+  const search = document.getElementById('search');
+  const goTo = () => {
+    const q = fold(search.value.trim());
+    if (!q) return;
+    const hit = labels.find((n) => fold(n) === q) || labels.find((n) => fold(n).startsWith(q)) || labels.find((n) => fold(n).includes(q));
+    if (hit) focusIso(names.get(hit));
+  };
+  search.addEventListener('change', goTo);
+  document.getElementById('searchForm').addEventListener('submit', (e) => { e.preventDefault(); goTo(); });
+
+})().catch((err) => {
+  document.getElementById('meta').innerHTML = `<span class="error">Impossible de charger les données (${err.message}). Réessayez plus tard ou consultez la page officielle de Free.</span>`;
+});
+</script>
+</body>
+</html>

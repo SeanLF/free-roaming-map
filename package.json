@@ -1,0 +1,16 @@
+{
+  "name": "free-roaming-map",
+  "version": "0.1.0",
+  "private": true,
+  "description": "World map of the destinations included in Free Mobile's Forfait Free 5G+ and Free Max, regenerated weekly from Free's own API.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs",
+    "test": "node --test test/",
+    "serve": "npx --yes serve site"
+  },
+  "dependencies": {
+    "i18n-iso-countries": "7.14.0"
+  }
+}

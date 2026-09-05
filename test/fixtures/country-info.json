@@ -1,0 +1,10374 @@
+{
+ "Algérie": {
+  "2Euros": {
+   "internet": {
+    "offer": "3,00€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,95€",
+    "toFrance": "0,95€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,45€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "3,00€"
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,17€",
+    "toFrance": "1,17€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,45€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "13,30€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,89€",
+    "toFrance": "2,89€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,39€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,17€",
+    "toFrance": "1,17€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,45€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Djezzy",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Mobilis",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Ooredoo",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   }
+  ]
+ },
+ "Açores (Les)": {
+  "2Euros": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,05€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2h",
+    "toFrance": "2h",
+    "toEurope": "2h",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,05€",
+    "toFrancePenalty": "0,05€",
+    "toEuropePenalty": "0,05€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,76€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "MEO",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "NOS",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Vodafone",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   }
+  ]
+ },
+ "Afghanistan": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Afghan Wireless",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Etisalat",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "MTN",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Roshan",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Alaska": {
+  "2Euros": {
+   "internet": {
+    "offer": "0,15€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,30€",
+    "toFrance": "0,30€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,30€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,15€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,27€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "1,05€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,76€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,30€",
+    "toFrancePenalty": "0,30€",
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,30€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "0,99€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,55€",
+    "toFrance": "2,89€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "0,72€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,27€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "1,05€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,76€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,30€",
+    "toFrancePenalty": "0,30€",
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,30€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "AT&T",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Commnet Wireless",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Limitless Mobile",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": true
+   },
+   {
+    "name": "Union",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": true
+   }
+  ]
+ },
+ "Aland (Iles)": {
+  "2Euros": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,05€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2h",
+    "toFrance": "2h",
+    "toEurope": "2h",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,05€",
+    "toFrancePenalty": "0,05€",
+    "toEuropePenalty": "0,05€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,76€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "partnerOperators": []
+ },
+ "Afrique du Sud": {
+  "2Euros": {
+   "internet": {
+    "offer": "3,95€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "1,50€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "3,95€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,27€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "1,05€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,76€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "1,20€",
+    "toFrancePenalty": "1,50€",
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,50€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "13,30€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,89€",
+    "toFrance": "2,89€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,39€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,27€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "1,05€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,76€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "1,20€",
+    "toFrancePenalty": "1,50€",
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,50€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Cell C",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Telkom South Africa",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Vodacom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   }
+  ]
+ },
+ "Allemagne": {
+  "2Euros": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,05€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2h",
+    "toFrance": "2h",
+    "toEurope": "2h",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,05€",
+    "toFrancePenalty": "0,05€",
+    "toEuropePenalty": "0,05€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,76€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Telefónica",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Telekom Deutschland",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Vodafone",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Albanie": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,00€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,00€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "13,30€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,89€",
+    "toFrance": "2,89€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,39€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,00€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "One",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   },
+   {
+    "name": "Vodafone",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Andorre": {
+  "2Euros": {
+   "internet": {
+    "offer": "0,20€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,07€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,23€",
+    "toFrance": "0,23€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,30€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "0,20€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,07€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,23€",
+    "toFrance": "0,23€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,30€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "0,20€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,07€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,23€",
+    "toFrance": "0,23€",
+    "toEurope": "2,18€",
+    "toWorld": "2,19€",
+    "received": "0,29€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "0,20€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,07€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,23€",
+    "toFrance": "0,23€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,30€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Andorra Telecom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Angola": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,75€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,75€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,75€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Africell Angola S.A.",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Movicel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Unitel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Anguilla": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Digicel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Flow",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Argentine": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "9,70€"
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Claro",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": true
+   },
+   {
+    "name": "Movistar",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": true
+   },
+   {
+    "name": "Telecom Argentina",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Arabie Saoudite": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "13,30€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,89€",
+    "toFrance": "2,89€",
+    "toEurope": "2,89€",
+    "toWorld": "2,89€",
+    "received": "1,39€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Mobily",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Stc",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Zain",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Angleterre": {
+  "2Euros": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,05€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2h",
+    "toFrance": "2h",
+    "toEurope": "2h",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,05€",
+    "toFrancePenalty": "0,05€",
+    "toEuropePenalty": "0,05€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,76€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "3",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "EE",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Virgin Media O2",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Vodafone",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Arménie": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "9,70€"
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Viva-MTS",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Ucom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Team Telecom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   }
+  ]
+ },
+ "Antigua et Barbuda": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "FLOW Antigua",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Digicel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Aruba": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Digicel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Autriche": {
+  "2Euros": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,05€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2h",
+    "toFrance": "2h",
+    "toEurope": "2h",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,05€",
+    "toFrancePenalty": "0,05€",
+    "toEuropePenalty": "0,05€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,76€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "3",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "A1",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "T-Mobile",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Azerbaïdjan": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Bakcell",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Azercell Telecom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Bangladesh": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "9,70€"
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Airtel (Bharti Airtel)",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Banglalink",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Grameenphone",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Robi",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Bahamas": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Aliv",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "BTC",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Bahreïn": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,50€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,50€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,50€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Stc",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Zain",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   }
+  ]
+ },
+ "Barbade": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Digicel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Flow",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Australie": {
+  "2Euros": {
+   "internet": {
+    "offer": "0,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,50€",
+    "toFrance": "0,50€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,30€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,50€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,27€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "1,05€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,76€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,50€",
+    "toFrancePenalty": "0,50€",
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,30€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "13,30€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,89€",
+    "toFrance": "2,89€",
+    "toEurope": "2,89€",
+    "toWorld": "2,89€",
+    "received": "1,39€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,27€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "1,05€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,76€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,50€",
+    "toFrancePenalty": "0,50€",
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,30€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Telstra",
+    "isGsm": false,
+    "isGprs": false,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Optus",
+    "isGsm": false,
+    "isGprs": false,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Vodafone",
+    "isGsm": false,
+    "isGprs": false,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Baléares (Les)": {
+  "2Euros": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,05€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2h",
+    "toFrance": "2h",
+    "toEurope": "2h",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,05€",
+    "toFrancePenalty": "0,05€",
+    "toEuropePenalty": "0,05€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,76€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Orange",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Telefónica",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Vodafone",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Yoigo",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Belgique": {
+  "2Euros": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,05€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2h",
+    "toFrance": "2h",
+    "toEurope": "2h",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,05€",
+    "toFrancePenalty": "0,05€",
+    "toEuropePenalty": "0,05€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,76€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Orange",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Proximus",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Telenet",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Belize": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Digicel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Smart",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Bermudes": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "One Communications",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Digicel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "WMS",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   }
+  ]
+ },
+ "Bénin": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,00€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,00€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,00€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "SBIN",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Etisalat",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "MTN",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Biélorussie": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "9,70€"
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Belarusian Telecommunication Network CJSC (BeST)",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "MTS (Mobile TeleSystems)",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "A1",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Bhoutan": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "B-Mobile",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": true
+   }
+  ]
+ },
+ "Bolivie": {
+  "2Euros": {
+   "internet": {
+    "offer": "7,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,50€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "7,50€"
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,50€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,50€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Viva",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Tigo",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Bosnie-Herzégovine": {
+  "2Euros": {
+   "internet": {
+    "offer": "7,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "7,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "7,50€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "HT Eronet",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "m:tel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "BH Telecom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   }
+  ]
+ },
+ "Bonaire": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Digicel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Botswana": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "btc",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Mascom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Orange",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Brésil": {
+  "2Euros": {
+   "internet": {
+    "offer": "7,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,75€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "7,50€"
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,99€",
+    "toFrance": "2,99€",
+    "toEurope": "2,99€",
+    "toWorld": "2,99€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "13,30€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,89€",
+    "toFrance": "2,89€",
+    "toEurope": "2,89€",
+    "toWorld": "2,89€",
+    "received": "1,39€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,99€",
+    "toFrance": "2,99€",
+    "toEurope": "2,99€",
+    "toWorld": "2,99€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "OI",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Oi Móvel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "TIM Brazil",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Vivo",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Claro",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "TIM",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Bulgarie": {
+  "2Euros": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,05€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2h",
+    "toFrance": "2h",
+    "toEurope": "2h",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,05€",
+    "toFrancePenalty": "0,05€",
+    "toEuropePenalty": "0,05€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,76€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "A1",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   },
+   {
+    "name": "Vivacom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Yettel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Brunei": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "UNN",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Burkina Faso": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Orange",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "MOOV",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Burundi": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Econetleo",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Lumitel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Caïman (Îles)": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Digicel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Flow",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Cameroun": {
+  "2Euros": {
+   "internet": {
+    "offer": "7,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "1,50€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "7,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "1,50€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "13,30€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,89€",
+    "toFrance": "2,89€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,39€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "7,50€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "1,50€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Orange",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "MTN",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Canaries (Les)": {
+  "2Euros": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,05€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2h",
+    "toFrance": "2h",
+    "toEurope": "2h",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,05€",
+    "toFrancePenalty": "0,05€",
+    "toEuropePenalty": "0,05€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,76€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Yoigo",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Orange",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Telefónica",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Vodafone",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Canada": {
+  "2Euros": {
+   "internet": {
+    "offer": "0,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "0,70€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,30€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,50€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,27€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "1,05€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,76€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,70€",
+    "toFrancePenalty": "0,70€",
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,30€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "13,30€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,89€",
+    "toFrance": "2,89€",
+    "toEurope": "2,89€",
+    "toWorld": "2,89€",
+    "received": "1,39€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,27€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "1,05€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,76€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,70€",
+    "toFrancePenalty": "0,70€",
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,30€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Freedom Mobile",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Ice Wireless",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Rogers AT&T",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "eastlink",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Sasktel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Videotron",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Bell",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "TELUS",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Cambodge": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,00€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,80€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,00€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,80€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,00€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,80€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "metfone",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Smart",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Cap Vert": {
+  "2Euros": {
+   "internet": {
+    "offer": "6,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,80€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "6,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,80€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "6,50€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,80€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "UNITEL T+",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "CVTelecom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Centrafrique": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,00€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,00€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,00€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Orange",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "MOOV",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Chatham (Ile)": {
+  "2Euros": {
+   "internet": {
+    "offer": "3,95€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,20€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "3,95€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,27€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "1,05€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,76€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,70€",
+    "toFrancePenalty": "1,20€",
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,95€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,27€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "1,05€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,76€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,70€",
+    "toFrancePenalty": "1,20€",
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,95€ (1)"
+   }
+  },
+  "partnerOperators": []
+ },
+ "Chili": {
+  "2Euros": {
+   "internet": {
+    "offer": "7,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,50€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "7,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,50€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "13,30€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,89€",
+    "toFrance": "2,89€",
+    "toEurope": "2,89€",
+    "toWorld": "2,89€",
+    "received": "1,39€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "7,50€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,50€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "WOM",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Claro",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Entel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Movistar",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": true
+   }
+  ]
+ },
+ "Chypre": {
+  "2Euros": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,05€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2h",
+    "toFrance": "2h",
+    "toEurope": "2h",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,05€",
+    "toFrancePenalty": "0,05€",
+    "toEuropePenalty": "0,05€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,76€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Cyta",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Epic",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Colombie": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "9,70€"
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "WOM Colombia",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Movistar",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Tigo",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Chypre du Nord": {
+  "2Euros": {
+   "internet": {
+    "offer": "6,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "1,00€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "6,50€"
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,49€",
+    "toFrance": "1,49€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "13,30€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,89€",
+    "toFrance": "2,89€",
+    "toEurope": "2,89€",
+    "toWorld": "2,89€",
+    "received": "1,39€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,49€",
+    "toFrance": "1,49€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,50€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "TT Mobil",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   },
+   {
+    "name": "Turkcell",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   },
+   {
+    "name": "Vodafone",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   }
+  ]
+ },
+ "Chine": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,50€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "9,70€"
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,99€",
+    "toFrance": "2,99€",
+    "toEurope": "2,99€",
+    "toWorld": "2,99€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "13,30€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,89€",
+    "toFrance": "2,89€",
+    "toEurope": "2,89€",
+    "toWorld": "2,89€",
+    "received": "1,39€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,99€",
+    "toFrance": "2,99€",
+    "toEurope": "2,99€",
+    "toWorld": "2,99€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "China Mobile",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "China Unicom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Comores": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "9,70€"
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Comores Telecom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Telma",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Emirats arabes unis": {
+  "2Euros": {
+   "internet": {
+    "offer": "1,00€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,50€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,00€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,00€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,00€",
+    "toFrance": "1,00€",
+    "toEurope": "1,00€",
+    "toWorld": "2,19€",
+    "received": "1,00€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "1,00€"
+   },
+   "sms": {
+    "sent": {
+     "price": "0,50€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,00€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,00€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,99€",
+    "toFrance": "2,99€",
+    "toEurope": "2,99€",
+    "toWorld": "2,99€",
+    "received": "1,00€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,50€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,00€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,00€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,99€",
+    "toFrance": "2,99€",
+    "toEurope": "2,99€",
+    "toWorld": "2,99€",
+    "received": "1,00€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Du",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   },
+   {
+    "name": "Etisalat",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   }
+  ]
+ },
+ "Guernesey": {
+  "2Euros": {
+   "internet": {
+    "offer": "0,057€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,02€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "0,057€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,057€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,057€",
+    "toFrance": "0,057€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,013€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,057€"
+   },
+   "sms": {
+    "sent": {
+     "price": "0,02€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "0,057€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,057€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,057€",
+    "toFrance": "0,057€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,013€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "0,057€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,02€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "0,057€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,057€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,057€",
+    "toFrance": "0,057€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,013€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,02€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "0,057€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,057€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,057€",
+    "toFrance": "0,057€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,013€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Sure",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   }
+  ]
+ },
+ "Israël": {
+  "2Euros": {
+   "internet": {
+    "offer": "0,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "0,70€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,30€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,50€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,27€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "1,05€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,76€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,70€",
+    "toFrancePenalty": "0,70€",
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,30€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "13,30€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,89€",
+    "toFrance": "2,89€",
+    "toEurope": "2,89€",
+    "toWorld": "2,89€",
+    "received": "1,39€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,27€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "1,05€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,76€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,70€",
+    "toFrancePenalty": "0,70€",
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,30€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Pelephone",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Cellcom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Hot Mobile",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Partner",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Liechtenstein": {
+  "2Euros": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,05€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2h",
+    "toFrance": "2h",
+    "toEurope": "2h",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,05€",
+    "toFrancePenalty": "0,05€",
+    "toEuropePenalty": "0,05€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,76€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Swisscom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Telecom Liechtenstein",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Salt",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ },
+ "Mozambique": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,80€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,80€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "1,20€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,80€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Movitel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Tmcel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Vodacom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Papouasie Nouvelle-Guinée": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,00€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,00€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,00€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Telikom",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Digicel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Vodafone",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": true
+   }
+  ]
+ },
+ "Saint-Barthélemy": {
+  "2Euros": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,05€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2h",
+    "toFrance": "2h",
+    "toEurope": "2h",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,05€",
+    "toFrancePenalty": "0,05€",
+    "toEuropePenalty": "0,05€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,76€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": "0,0013€"
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus",
+    "toChooseCountryPenalty": "0,0228€",
+    "toFrancePenalty": "0,0228€",
+    "toEuropePenalty": "0,0228€",
+    "toWorldPenalty": null,
+    "receivedPenalty": "0,0024€ (1)"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Digicel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Orange",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   }
+  ]
+ },
+ "Somalie": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Hormuud Telecom",
+    "isGsm": true,
+    "isGprs": false,
+    "isLte": false,
+    "is5gNsa": false,
+    "isVolte": false
+   }
+  ]
+ },
+ "Tonga": {
+  "2Euros": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "9,70€",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "2,19€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,95€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Digicel",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": false
+   }
+  ]
+ },
+ "Vietnam": {
+  "2Euros": {
+   "internet": {
+    "offer": "7,50€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,80€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "7,50€"
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,80€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "serieFree": {
+   "internet": {
+    "offer": "18,47€",
+    "penalty": null
+   },
+   "sms": {
+    "sent": {
+     "price": "0,65€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,90€",
+     "penalty": null
+    },
+    "received": {
+     "price": "1,90€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "3,95€",
+    "toFrance": "3,95€",
+    "toEurope": "3,95€",
+    "toWorld": "3,95€",
+    "received": "1,97€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "0,27€",
+     "penalty": null
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "1,05€",
+     "penalty": null
+    },
+    "received": {
+     "price": "0,76€",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "0,70€",
+    "toFrance": "2,19€",
+    "toEurope": "2,19€",
+    "toWorld": "2,19€",
+    "received": "0,80€",
+    "toChooseCountryPenalty": null,
+    "toFrancePenalty": null,
+    "toEuropePenalty": null,
+    "toWorldPenalty": null,
+    "receivedPenalty": null
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Mobifone (VNPT) VMS",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": false
+   },
+   {
+    "name": "Viettel Group",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Vinaphone",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Vietnamobile",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": false,
+    "isVolte": true
+   }
+  ]
+ },
+ "Espagne": {
+  "free5g": {
+   "internet": {
+    "offer": "inclus",
+    "penalty": "0,0013€"
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": null
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus"
+   }
+  },
+  "gold": {
+   "internet": {
+    "offer": "inclus en illimité",
+    "penalty": ""
+   },
+   "sms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": "0,0036€"
+    }
+   },
+   "mms": {
+    "sent": {
+     "price": "Inclus",
+     "penalty": null
+    },
+    "received": {
+     "price": "Inclus",
+     "penalty": null
+    }
+   },
+   "calls": {
+    "toChooseCountry": "Inclus",
+    "toFrance": "Inclus",
+    "toEurope": "Inclus",
+    "toWorld": "2,19€",
+    "received": "Inclus"
+   }
+  },
+  "partnerOperators": [
+   {
+    "name": "Orange",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Telefónica",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   },
+   {
+    "name": "Vodafone",
+    "isGsm": true,
+    "isGprs": true,
+    "isLte": true,
+    "is5gNsa": true,
+    "isVolte": true
+   }
+  ]
+ }
+}
