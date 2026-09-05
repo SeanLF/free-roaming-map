@@ -1,0 +1,35 @@
+name: dependency health
+
+# Reports, never blocks. Pattern copied from steer-site: npm audit answers
+# "is it vulnerable", still_active answers "is anyone still there".
+on:
+  schedule:
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Known vulnerabilities
+        run: npm audit --audit-level=moderate || true
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+      - run: gem install still_active --pre
+      - name: Dependency maintenance status
+        run: |
+          npx --yes @cyclonedx/cyclonedx-npm --output-file bom.json
+          {
+            echo "## Dependency health"
+            still_active --sbom=bom.json --markdown --alternatives
+          } >> "$GITHUB_STEP_SUMMARY"

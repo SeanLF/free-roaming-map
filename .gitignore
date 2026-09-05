@@ -1,1 +1,4 @@
 node_modules/
+# Local Claude Code config, including the Impeccable design skill and its 12 MB engine
+.claude/
+.impeccable/
