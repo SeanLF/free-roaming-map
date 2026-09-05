@@ -46,17 +46,24 @@
   [hidden] { display: none !important; }
   body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, sans-serif; }
   body { padding-block-end: 112px; }
+  .skip { position: fixed; top: 8px; left: 8px; z-index: 60; padding: 8px 12px; border-radius: 8px; background: var(--ink); color: var(--bg); text-decoration: none; translate: 0 -200%; &:focus-visible { translate: 0; outline: 2px solid var(--bg); } }
   main, footer { max-inline-size: 1200px; margin-inline: auto; padding-inline: 20px; }
   /* The dock. Surface is 82 % background colour with a saturating blur behind it; the
      fade below dims whatever scrolls under. Without backdrop-filter it goes opaque. */
-  .fade { position: fixed; inset: auto 0 0 0; block-size: 120px; pointer-events: none; z-index: 40; background: linear-gradient(to top, var(--bg) 0%, color-mix(in oklab, var(--bg) 70%, transparent) 55%, transparent 100%); }
+  /* Only under the dock, and only 90 px: enough to keep the dock readable, not enough
+     to erase the bottom of the map on a short window. */
+  .fade { position: fixed; bottom: 0; left: 50%; translate: -50% 0; inline-size: min(760px, 100%); block-size: 90px; pointer-events: none; z-index: 40; background: radial-gradient(60% 100% at 50% 100%, var(--bg) 0%, color-mix(in oklab, var(--bg) 75%, transparent) 55%, transparent 100%); }
   .dock { position: fixed; z-index: 50; bottom: max(20px, env(safe-area-inset-bottom)); left: 50%; translate: -50% 0; display: flex; align-items: center; gap: 8px; padding: 6px; border-radius: 999px; background: var(--glass); border: 1px solid var(--glass-line); box-shadow: 0 6px 24px rgb(0 0 0 / .18), 0 1px 2px rgb(0 0 0 / .08); backdrop-filter: blur(20px) saturate(1.4); -webkit-backdrop-filter: blur(20px) saturate(1.4); inline-size: min(640px, calc(100% - 32px)); }
   @supports not (backdrop-filter: blur(1px)) { .dock { background: var(--bg); } }
   .brand { inline-size: 40px; block-size: 40px; flex: none; border-radius: 50%; display: grid; place-items: center; color: var(--ink); text-decoration: none; &:hover { background: var(--inset); } & svg { inline-size: 20px; block-size: 20px; } }
-  .search { flex: 1 1 auto; min-inline-size: 0; margin: 0; & input { inline-size: 100%; block-size: 40px; padding: 0 16px; border: 0; border-radius: 999px; background: var(--inset); color: var(--ink); font: inherit; font-size: 15px; &::placeholder { color: var(--muted); } &:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; } } }
+  .search { flex: 1 1 auto; min-inline-size: 0; margin: 0; position: relative; & input { inline-size: 100%; block-size: 40px; padding: 0 16px; border: 0; border-radius: 999px; background: var(--inset); color: var(--ink); font: inherit; font-size: 15px; &::placeholder { color: var(--muted); } &:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; } } }
   .pill { display: inline-flex; align-items: center; gap: 6px; block-size: 40px; padding: 0 14px; border-radius: 999px; font-size: 14px; font-weight: 500; color: var(--ink); text-decoration: none; background: var(--inset); flex: none; & .g { font-size: 12px; color: var(--muted); } &:hover { filter: brightness(.96); } }
+  .suggest { position: absolute; left: 0; right: 0; bottom: calc(100% + 10px); margin: 0; padding: 6px; list-style: none; border-radius: 16px; background: var(--glass); border: 1px solid var(--glass-line); box-shadow: 0 6px 24px rgb(0 0 0 / .18); backdrop-filter: blur(20px) saturate(1.4); -webkit-backdrop-filter: blur(20px) saturate(1.4); max-block-size: 50vh; overflow: auto;
+    & li { display: flex; align-items: center; gap: 8px; padding: 9px 12px; border-radius: 10px; cursor: pointer; font-size: 15px; & .flag { font-size: 18px; line-height: 1; } & small { margin-inline-start: auto; color: var(--muted); font-size: 13px; }
+      &:hover, &[aria-selected="true"] { background: var(--inset); } } }
+  @supports not (backdrop-filter: blur(1px)) { .suggest { background: var(--bg); } }
   .theme-toggle { inline-size: 40px; block-size: 40px; flex: none; border-radius: 50%; border: 0; background: var(--inset); color: var(--ink); display: grid; place-items: center; cursor: pointer; padding: 0; &:hover { filter: brightness(.96); } & svg { inline-size: 17px; block-size: 17px; } & .moon { display: none; } }
-  @media (max-width: 640px) { .pill { padding: 0 12px; & span:last-child { display: none; } } }
+  @media (max-width: 640px) { .pill { padding: 0 12px; & .label { display: none; } &:hover .label, &:focus-visible .label { display: inline; } } }
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .theme-toggle { & .sun { display: none; } & .moon { display: block; } } }
   :root[data-theme="dark"] .theme-toggle { & .sun { display: none; } & .moon { display: block; } }
   .theme-menu { margin: 0; padding: 6px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); box-shadow: 0 8px 24px rgb(0 0 0 / .18); min-inline-size: 160px; flex-direction: column; gap: 2px; position: fixed; inset: auto; bottom: 80px; right: max(20px, calc(50vw - 320px)); display: none; &:popover-open { display: flex; } }
@@ -129,6 +136,7 @@
 </head>
 <body>
 
+<a class="skip" href="#search">Aller à la recherche</a>
 <main>
   <h1>Où votre Forfait Free fonctionne à l'étranger</h1>
   <p class="lede" id="lede">Chargement des données…</p>
@@ -162,10 +170,13 @@
      over the map and the lists. -->
 <div class="fade" aria-hidden="true"></div>
 <nav class="dock" aria-label="Recherche et réglages">
-  <a class="brand" href="./" aria-label="Forfait Free à l'étranger, accueil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></a>
-  <form class="search" role="search" id="searchForm"><input type="search" id="search" list="destinations" placeholder="Rechercher un pays…" aria-label="Rechercher un pays ou une destination" autocomplete="off"><datalist id="destinations"></datalist></form>
-  <a class="pill" id="translate" hidden><span class="g" aria-hidden="true">文A</span> Translate</a>
-  <button type="button" class="theme-toggle" id="themeToggle" popovertarget="themeMenu" aria-label="Apparence : système" aria-haspopup="menu" aria-expanded="false">
+  <a class="brand" href="./" aria-label="Forfait Free à l'étranger, accueil" title="Accueil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></a>
+  <form class="search" role="search" id="searchForm">
+    <input type="search" id="search" placeholder="Rechercher un pays…" aria-label="Rechercher un pays ou une destination" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="suggest" aria-expanded="false">
+    <ul class="suggest" id="suggest" role="listbox" aria-label="Suggestions" hidden></ul>
+  </form>
+  <a class="pill" id="translate" hidden title="Traduire cette page avec Google Translate"><span class="g" aria-hidden="true">文A</span> <span class="label">Translate</span></a>
+  <button type="button" class="theme-toggle" id="themeToggle" popovertarget="themeMenu" aria-label="Apparence : système" title="Apparence : clair, sombre ou système" aria-haspopup="menu" aria-expanded="false">
     <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
     <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
   </button>
@@ -445,6 +456,18 @@ const theme = (() => {
     const s1 = pz.getSizes();
     pz.pan({ x: s1.width / 2 - cx * s1.realZoom, y: s1.height / 2 - cy * s1.realZoom });
   }
+  // The card opening or closing changes the map's width. svg-pan-zoom keeps pan in old
+  // pixels, so re-measure and re-pan to keep one SVG point at the viewport centre.
+  const elementFor = (iso) => document.getElementById(`svgMap-map-country-${iso}`) || document.querySelector(`#svgMap circle.pin[data-iso="${iso}"]`);
+  const centreOf = (iso) => { const el = iso && elementFor(iso); if (!el) return null; const b = el.getBBox(); return { x: b.x + b.width / 2, y: b.y + b.height / 2 }; };
+  const svgPointAtCentre = () => { const pz = map.mapPanZoom, s = pz.getSizes(), p = pz.getPan(); return { x: (s.width / 2 - p.x) / s.realZoom, y: (s.height / 2 - p.y) / s.realZoom }; };
+  function relayout(keep) {
+    const pz = map.mapPanZoom;
+    void mapArea.offsetWidth; // settle the grid before measuring
+    pz.resize(); pz.updateBBox();
+    const s = pz.getSizes();
+    pz.pan({ x: s.width / 2 - keep.x * s.realZoom, y: s.height / 2 - keep.y * s.realZoom });
+  }
   function highlight(iso) {
     document.querySelectorAll('#svgMap .svgMap-active').forEach((x) => x.classList.remove('svgMap-active'));
     (document.getElementById(`svgMap-map-country-${iso}`) || document.querySelector(`#svgMap circle.pin[data-iso="${iso}"]`))?.classList.add('svgMap-active');
@@ -460,7 +483,10 @@ const theme = (() => {
   function select(iso, { move = true, hash = true, focus = false } = {}) {
     opener = document.activeElement;
     answer.innerHTML = answerHtml(iso);
+    map.hideTooltip?.();
+    const keep = centreOf(iso) || svgPointAtCentre();
     mapArea.dataset.open = '';
+    relayout(keep);
     answer.scrollTop = 0;
     highlight(iso);
     if (move) focusIso(iso);
@@ -470,7 +496,9 @@ const theme = (() => {
   }
   function closeAnswer() {
     answer.innerHTML = '';
+    const keep = svgPointAtCentre();
     delete mapArea.dataset.open;
+    relayout(keep);
     history.replaceState(null, '', location.pathname);
     highlight('');
     if (opener && opener.isConnected) opener.focus(); else document.getElementById('search').focus();
@@ -530,7 +558,7 @@ const theme = (() => {
     if (!q) return;
     const hit = labels.find((n) => fold(n) === q) || labels.find((n) => fold(n).startsWith(q)) || labels.find((n) => fold(n).includes(q));
     if (hit) { select(names.get(hit), { focus: true }); return; }
-    const near = labels.map((n) => [distance(q, fold(n).slice(0, q.length + 2)), n]).sort((a, b) => a[0] - b[0]).slice(0, 3).filter(([d]) => d <= Math.max(3, q.length / 2)).map(([, n]) => n);
+    const near = labels.map((n) => [distance(q, fold(n).slice(0, q.length + 2)), n]).sort((a, b) => a[0] - b[0]).slice(0, 3).map(([, n]) => n);
     answer.innerHTML = `<button type="button" class="close" data-close aria-label="Fermer">✕</button><h2>Aucune destination ne correspond à « ${esc(search.value.trim())} »</h2>` +
       (near.length ? `<p class="miss">Vouliez-vous dire : ${near.map((n) => `<button type="button" data-suggest="${esc(n)}">${esc(n)}</button>`).join('')}</p>` : `<p class="miss">Essayez le nom du pays en français ou en ${readerLang === 'fr' ? 'anglais' : esc(langName(readerLang))}.</p>`);
     mapArea.dataset.open = '';
@@ -549,10 +577,45 @@ const theme = (() => {
     for (const iso of [...mapIsos, ...Object.keys(PINS)]) { try { const n = dn.of(iso); if (n && n !== iso && !names.has(n)) names.set(n, iso); } catch {} }
   }
   labels = [...names.keys()].sort((a, b) => a.localeCompare(b, readerLang));
-  document.getElementById('destinations').replaceChildren(...labels.map((n) => Object.assign(document.createElement('option'), { value: n })));
   const search = document.getElementById('search');
-  search.addEventListener('change', goTo);
-  search.addEventListener('input', () => filterLists(fold(search.value.trim())));
+  const suggest = document.getElementById('suggest');
+  let active = -1;
+  const statusWord = (iso) => { const e = data.byIso[iso]; if (iso === 'FR') return 'France'; if (!e) return 'non inclus'; const l = layerOf(e.status); return l === 'full' ? 'tout inclus' : l === 'data' ? 'internet' : l === 'max' ? 'Free Max' : 'non inclus'; };
+  function showSuggestions() {
+    const q = fold(search.value.trim());
+    const seen = new Set();
+    const pick = (pred) => labels.filter((n) => { const iso = names.get(n); if (seen.has(iso) || !pred(fold(n))) return false; seen.add(iso); return true; });
+    const matches = q ? [...pick((f) => f.startsWith(q)), ...pick((f) => f.includes(q))].slice(0, 8) : [];
+    suggest.replaceChildren(...matches.map((n, i) => {
+      const iso = names.get(n);
+      const li = document.createElement('li'); li.role = 'option'; li.id = `sug-${i}`; li.dataset.name = n;
+      li.innerHTML = `${flag(iso)}<span>${esc(n)}</span><small>${esc(statusWord(iso))}</small>`;
+      li.addEventListener('pointerdown', (e) => e.preventDefault()); // keep focus in the input
+      li.addEventListener('click', () => choose(n));
+      return li;
+    }));
+    active = -1;
+    suggest.hidden = matches.length === 0;
+    search.setAttribute('aria-expanded', String(!suggest.hidden));
+    search.removeAttribute('aria-activedescendant');
+  }
+  function choose(n) { search.value = n; suggest.hidden = true; search.setAttribute('aria-expanded', 'false'); select(names.get(n), { focus: true }); }
+  function moveActive(delta) {
+    const items = [...suggest.children]; if (!items.length) return;
+    active = (active + delta + items.length) % items.length;
+    items.forEach((li, i) => li.setAttribute('aria-selected', String(i === active)));
+    search.setAttribute('aria-activedescendant', items[active].id);
+    items[active].scrollIntoView({ block: 'nearest' });
+  }
+  search.addEventListener('input', () => { showSuggestions(); filterLists(fold(search.value.trim())); });
+  search.addEventListener('focus', showSuggestions);
+  search.addEventListener('blur', () => { suggest.hidden = true; search.setAttribute('aria-expanded', 'false'); });
+  search.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowDown') { e.preventDefault(); if (suggest.hidden) showSuggestions(); moveActive(1); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); moveActive(-1); }
+    else if (e.key === 'Escape' && !suggest.hidden) { e.stopPropagation(); suggest.hidden = true; search.setAttribute('aria-expanded', 'false'); }
+    else if (e.key === 'Enter') { e.preventDefault(); if (active >= 0 && suggest.children[active]) choose(suggest.children[active].dataset.name); else { suggest.hidden = true; goTo(); } }
+  });
   document.getElementById('searchForm').addEventListener('submit', (e) => { e.preventDefault(); goTo(); });
   document.querySelectorAll('#legend input').forEach((cb) => cb.addEventListener('change', () => {
     cb.checked ? hidden.delete(cb.dataset.layer) : hidden.add(cb.dataset.layer);
